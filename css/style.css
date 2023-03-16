@@ -2,6 +2,8 @@
 .filter-interaction:focus {
   background-color: var(--interaction-color);
   color: var(--interaction-color-2);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 :root {
@@ -25,16 +27,24 @@ body {
   color: var(--text-color);
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 button {
   cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 h1 {
@@ -59,6 +69,8 @@ h2 {
   background-color: var(--interaction-color);
   font-size: 16px;
   line-height: 0.53;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .menu-style {
@@ -82,6 +94,7 @@ h2 {
   font-size: 16px;
   line-height: 0.61;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .contact-header {
