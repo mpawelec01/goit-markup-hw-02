@@ -1,0 +1,157 @@
+.filter-interaction:hover,
+.filter-interaction:focus {
+  background-color: var(--interaction-color);
+  color: var(--interaction-color-2);
+}
+
+:root {
+  --interaction-color: #2196f3;
+  --interaction-color-2: #fff;
+  --background-color: #2f303a;
+  --text-color: #212121;
+  --project-type-and-contact-color: #757575;
+  --filter-button-background-color: #f5f4fa;
+  --contact-footer-color: #ffffff99;
+  --logo-second-part-header-color: #000;
+}
+
+.menu-interaction:hover,
+.menu-interaction:focus {
+  color: var(--interaction-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  color: #fff;
+  font-size: 44px;
+  line-height: 0.73;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 0.86;
+}
+
+.background {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.order-service {
+  color: #fff;
+  background-color: var(--interaction-color);
+  font-size: 16px;
+  line-height: 0.53;
+}
+
+.menu-style {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 0.88;
+}
+
+.project-name {
+  font-size: 18px;
+  line-height: 0.5;
+}
+
+.project-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 0.53;
+}
+
+.filter-name {
+  font-size: 16px;
+  line-height: 0.61;
+  background-color: #f5f4fa;
+}
+
+.contact-header {
+  font-size: 14px;
+  line-height: 0.88;
+  color: var(--project-type-and-contact-color);
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 0.58;
+  color: var(--contact-footer-color);
+}
+
+.address-name {
+  color: #fff;
+  font-size: 14px;
+  line-height: 0.58;
+}
+
+.logo-first-part-header {
+  color: var(--interaction-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 0.84;
+}
+
+.logo-second-part-header {
+  color: var(--logo-second-part-header-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 0.84;
+}
+
+.logo-first-part-footer {
+  color: var(--interaction-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 0.84;
+}
+
+.logo-second-part-footer {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 0.84;
+}
+
+.footer-style {
+  background-color: var(--background-color);
+}
+
+.text-header {
+  font-size: 14px;
+  line-height: 0.88;
+}
+
+.text-style {
+  color: var(--project-type-and-contact-color);
+  font-size: 14px;
+  line-height: 0.58;
+}
+
+.team-member-name {
+  font-size: 16px;
+  line-height: 0.84;
+}
+
+.team-member-area {
+  color: var(--project-type-and-contact-color);
+  font-size: 16px;
+  line-height: 0.84;
+}
